@@ -13,7 +13,7 @@ class Artist
  
  
   def songs 
-    Song.all.select {|song| song.Artist}
+    Song.all.select {|song| song.artist}
   end 
 
   def self.find_or_create_by_name
