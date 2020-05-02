@@ -9,8 +9,8 @@ class Song
   def self.all 
    @@all 
  end 
- def self.new_by_filename=(file_name)
-   file_name = self.new 
+# def self.new_by_filename=(file_name)
+#   file_name = self.new 
    
 end 
 end 
