@@ -10,8 +10,8 @@ class Artist
     @@all 
   end 
   
-  def add_song=(song) 
-    song = Song.all
+  def add_song=(song_one) 
+    song_one = Song.all
   end 
  
   def songs 
