@@ -9,9 +9,10 @@ class Artist
   def self.all 
     @@all 
   end 
-  
+   def songs
+    Song.all.select {|song| song.artist}
   def add_song(song)
-    song.artist << self 
+    song.artist = self  
   end 
  
   # def songs 
