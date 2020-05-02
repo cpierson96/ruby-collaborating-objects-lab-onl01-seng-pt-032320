@@ -11,7 +11,7 @@ class Artist
   end 
   
   def add_song 
-    artist.self
+  end 
  
   def songs 
     Song.all.select {|song| song.artist = self}
@@ -25,4 +25,4 @@ class Artist
   end 
 
   
-  # end 
+  end 
