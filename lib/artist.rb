@@ -17,8 +17,7 @@ def self.find_or_create_by_name
 end 
 
 def print_songs
-  self.songs.each 
-  song do {|name| 
+  self.songs.each{|song|
     
     
   
